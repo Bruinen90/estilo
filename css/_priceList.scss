@@ -1,0 +1,44 @@
+.priceList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    position: relative;
+}
+
+.priceList--woman {
+    background-color: lighten(#fabab8, 5%);
+}
+
+.priceList--man {
+    background-color: darken(#7eb1c6, 10%);
+    color: #fff;
+}
+
+.priceList__table {
+    width: 100%;
+    max-width: 600px;
+}
+
+.priceList__row {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px 30px;
+    &:nth-child(2n) {
+        background-color: rgba(255,255,255,.2);
+    }
+}
+
+.priceList__serviceName {
+    width: 75%;
+    padding-right: 30px;
+}
+
+.priceList__price {
+    width: 25%;
+    text-align: right;
+}

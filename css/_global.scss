@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin animatedLinkBorder($borderColor) {
+    position: relative;
+    &::after {
+        content: " ";
+        width: 100%;
+        border-bottom: 1px solid $borderColor;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        transition: .15s ease-in;
+        transform: scaleX(0);
+        animation: animateBorder .25s ease-in forwards;
+    }
+}
+
+@keyframes animateBorder {
+    to {
+        transform: scaleX(1);
+    }
+}

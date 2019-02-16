@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Estilo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/fullpage.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    </head>
+    <body>
+        <div class="navCont">
+            <div class="navCont__cont">
+                <div class="navCont__logoCont">
+                    <a href="#home">
+                        <h2 class="header">Estilo</h2>
+                    </a>
+                    <!-- <img src="img/logo.png" class="navCont__logoImg" alt="Estilo"> -->
+                </div>
+                <div class="nav nav--hidden">
+                    <ul class="nav__list" id="nav__list">
+                        <li class="nav__item" data-menuanchor='cennik'>
+                            <a href="#cennik/1" class="nav__link">
+                                <span data-hover="Cennik">Cennik</span>
+                            </a>
+                        </li>
+                        <li class="nav__item" data-menuanchor='kadra'>
+                            <a href="#kadra" class="nav__link">
+                                <span data-hover="Nasza kadra">Nasza kadra</span>
+                            </a>
+                        </li>
+                        <li class="nav__item" data-menuanchor='kontakt'>
+                            <a href="#kontakt" class="nav__link">
+                                <span data-hover="Kontakt">Kontakt</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navCont__toggler" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="fullpage">
+
+            <div class="section welcomeCont">
+                <h1 class="welcomeCont__header">
+                    Estilo
+                </h1>
+                <h2 class="welcomeCont__subHeader">
+                    Profesjonalny salon fryzjerski
+                </h2>
+                <img src="img/welcomeGirl.png" alt="" class="welcomeCont__pic">
+                <div class="mouse">
+                    <div class="mouse__scroll"></div>
+                </div>
+            </div>
+
+            <div class="section">
+
+                <div class="slide">
+                    <div class="priceList  priceList--woman">
+                        <div class="arrow arrow--right">
+                            <a href="#cennik/1" class="prices__link"></a>
+                        </div>
+                        <h2 class="header header--center">Cennik dla Pań</h2>
+                        <div class="priceList__table">
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Koloryzacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Ombre</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Stylizacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Mycie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Suszenie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Regeneracja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Maseczka</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Koloryzacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Ombre</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Stylizacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Mycie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Suszenie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Regeneracja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Maseczka</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide active">
+                    <div class="prices">
+                        <div class="prices__gender prices__gender--woman">
+                            <a href="#cennik" class="prices__link">
+                                <div class="arrow arrow--left"></div>
+                                <h2 class="prices__genderLink prices__genderLink--woman">
+                                    Cennik dla Pań
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="prices__gender prices__gender--man">
+                            <a href="#cennik/2" class="prices__link">
+                                <div class="arrow arrow--right"></div>
+                                <h2 class="prices__genderLink prices__genderLink--man">
+                                    Cennik dla Panów
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="priceList  priceList--man">
+                        <div class="arrow arrow--left">
+                            <a href="#cennik/1" class="prices__link"></a>
+                        </div>
+                        <h2 class="header header--center">Cennik dla panów</h2>
+                        <div class="priceList__table">
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Koloryzacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Ombre</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Stylizacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Mycie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Suszenie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Regeneracja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Maseczka</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Koloryzacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Ombre</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Stylizacja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Mycie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Suszenie</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Regeneracja</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                            <div class="priceList__row">
+                                <div class="priceList__serviceName">Maseczka</div>
+                                <div class="priceList__price">50zł</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section">
+                <div class="sectionCont">
+                    <div class="staff">
+                        <div class="staff__container">
+                            <img
+                                src="./img/staff/person_1.jpg"
+                                alt=""
+                                class="staff__img"
+                            />
+                            <h3 class="staff__name">
+                                Ania Kowalska
+                            </h3>
+                            <div class="staff__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellat quod officiis, ad, dignissimos quibusdam! Harum blanditiis accusantium corporis optio!
+                            </div>
+                        </div>
+                        <div class="staff__container">
+                            <img
+                                src="./img/staff/person_2.jpg"
+                                alt=""
+                                class="staff__img"
+                            />
+                            <h3 class="staff__name">
+                                Kasia Nowak
+                            </h3>
+                            <div class="staff__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati numquam cupiditate expedita commodi repellendus deleniti neque cum illo tempore, consequuntur consectetur voluptatum, earum, dolorem non aperiam nisi. Et, in quo quisquam ut possimus dignissimos modi incidunt nobis libero, quam ipsa!
+                            </div>
+                        </div>
+                        <div class="staff__container">
+                            <img
+                                src="./img/staff/person_3.jpg"
+                                alt=""
+                                class="staff__img"
+                            />
+                            <h3 class="staff__name">
+                                Piotr Wesołowski
+                            </h3>
+                            <div class="staff__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam fugit sint optio harum alias maxime consequuntur autem eligendi, totam tempore? Est sit dicta molestias nisi eum omnis iste impedit, nam possimus odit accusamus illo. Saepe nesciunt ea, blanditiis omnis! Magnam, tenetur voluptatem ipsa eius non amet iste provident unde. Commodi facilis, ut exercitationem harum sunt deleniti molestiae velit repellat rerum.
+                            </div>
+                        </div>
+                        <div class="staff__container">
+                            <img
+                                src="./img/staff/person_4.jpg"
+                                alt=""
+                                class="staff__img"
+                            />
+                            <h3 class="staff__name">
+                                Monika Wysocka
+                            </h3>
+                            <div class="staff__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus modi fugiat, at, incidunt, nostrum tempora saepe consequuntur labore commodi nisi mollitia molestiae laudantium quos.
+                            </div>
+                        </div>
+                        <div class="staff__container">
+                            <img
+                                src="./img/staff/person_5.jpg"
+                                alt=""
+                                class="staff__img"
+                            />
+                            <h3 class="staff__name">
+                                Wojtek Brzozowski
+                            </h3>
+                            <div class="staff__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente architecto assumenda, sit neque magnam quis vitae velit voluptatibus blanditiis nam dolorem ipsam quaerat magni dignissimos. Iusto minus unde debitis saepe rem blanditiis, incidunt, voluptatem dolor a eveniet dicta quia perferendis eum magnam dolorum nisi atque adipisci odio, alias nostrum ipsa nulla. Nam ab sed quo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+
+                <div class="sectionCont sectionCont--top">
+                    <section class="map" id="map">
+                    </section>
+
+                    <section class="contactData">
+                        <div class="contactData__container">
+                            <img src="img/icons/icon_call.svg" alt="Telefon" class="contactData__icon">
+                            <div class="contactData__info">
+                                <a href="tel: +48883418249" class="contactData__callLink">784 945 753</a>
+                            </div>
+                        </div>
+
+                        <div class="contactData__container">
+                            <img src="img/icons/icon_clock.svg" alt="Godziny otwarcia" class="contactData__icon">
+                            <div class="contactData__info">
+                                <div class="contactData__info contactData__info--small">
+                                    poniedziałek - piątek
+                                </div>
+                                9:00 - 20:00
+                                <div class="contactData__info contactData__info--small">
+                                    sobota, niedziela
+                                </div>
+                                8:00 - 15:00
+                            </div>
+                        </div>
+
+                        <div class="contactData__container">
+                            <img src="img/icons/icon_address.svg" alt="Godziny otwarcia" class="contactData__icon">
+                            <div class="contactData__info">
+                                <div class="contactData__address">
+                                    <a href="https://www.google.com/maps/dir/?api=1&destination=QVB&destination_place_id=ChIJVcjxTjNFFkcRL-q6tBI5DeY" target="_blank">
+                                        ul. Orlińskiego 3<br/>
+                                        31-878 Kraków
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            <!-- <div class="section">Footer</div> -->
+        </div>
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script type="text/javascript">
+        new fullpage('#fullpage', {
+        	//options here
+            sectionsColor: ['#f2f2f2', '#4BBFC3', '#81667A', '#fff', '#000'],
+            licenseKey:'3F060592-B2104558-A40FE35D-AEB863B4',
+            anchors:['home', 'cennik', 'kadra', 'kontakt'],
+            menu: '#nav__list',
+            controlArrows: false,
+            scrollOverflow: true,
+            normalScrollElements: '#map',
+            onLeave: function(origin, destination, direction){
+                		if(origin.index == 0){
+                			document.querySelector('.navCont').classList.add('navCont--white');
+                            document.querySelector('.mouse').classList.add('mouse--hidden');
+                		} else if(destination.index == 0){
+                            document.querySelector('.navCont').classList.remove('navCont--white');
+                        }
+                	}
+        });
+    </script>
+    <script type="text/javascript" src="js/menuToggler.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzC0z6x8grjLCFWwzLM6LDUzQGXXFk0nw&callback=initMap"
+async defer></script>
+    </body>
+</html>

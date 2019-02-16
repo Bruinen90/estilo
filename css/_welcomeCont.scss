@@ -1,0 +1,62 @@
+.welcomeCont {
+    // background-image: url('../img/gradient.jpg');
+    background-image: linear-gradient(#cac9db 10%,#bbbecf 20%, #8e8097);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative;
+}
+
+.welcomeCont__header {
+    display: none;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 100;
+    font-size: 20vh;
+    text-align: center;
+    margin-right: 20vw;
+}
+
+.welcomeCont__subHeader {
+    margin: 0;
+    font-weight: 300;
+    font-size: 3.5vh;
+    text-align: center;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 20vh;
+}
+
+.welcomeCont__pic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 100;
+}
+
+@media (min-width: $desktop) {
+    .welcomeCont {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .welcomeCont__header {
+        display: block;
+    }
+
+    .welcomeCont__subHeader {
+        position: static;
+        margin-right: 20vw;
+    }
+
+    .welcomeCont__pic {
+        position: absolute;
+        bottom: 0;
+        right: 10vw;
+        width: auto;
+        height: 91vh;
+        z-index: 100;
+    }
+}

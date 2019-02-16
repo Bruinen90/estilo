@@ -1,0 +1,21 @@
+.header {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 36px;
+    margin: 0;
+    z-index: 1000;
+}
+
+.header--center {
+    text-align: center;
+    z-index: 0;
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 28px;
+}
+
+@media (min-width: $desktop) {
+    .header {
+        font-size: 30px;
+    }
+}
