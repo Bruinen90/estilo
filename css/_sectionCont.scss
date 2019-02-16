@@ -1,5 +1,5 @@
 .sectionCont {
-    margin-top: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +12,24 @@
     justify-content: flex-start;
 }
 
+.sectionCont--woman {
+    background-color: lighten(#fabab8, 5%);
+}
+
+.sectionCont--man {
+    background-color: darken(#7eb1c6, 10%);
+}
+
+.sectionCont--staff {
+    background-image: linear-gradient(lighten(#087CA7, 80%), #087CA7);
+}
+
+.sectionCont--contact {
+    background-image: linear-gradient(#fff 70%, #fff);
+}
+
 @media (min-width: $desktop) {
     .sectionCont {
-        margin-top: 100px;
+        padding-top: 100px;
     }
 }

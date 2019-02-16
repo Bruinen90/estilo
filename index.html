@@ -10,6 +10,7 @@
         <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     </head>
     <body>
+        <div class="cover cover--hidden" onclick="toggleMenu()"></div>
         <div class="navCont">
             <div class="navCont__cont">
                 <div class="navCont__logoCont">
@@ -37,11 +38,16 @@
                         </li>
                     </ul>
                 </div>
-                <div class="navCont__toggler" onclick="toggleMenu()">
+                <button class="hamburger hamburger--spin" type="button" onclick="toggleMenu()">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <!-- <div class="navCont__toggler" onclick="toggleMenu()">
                     <div></div>
                     <div></div>
                     <div></div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div id="fullpage">
@@ -62,75 +68,77 @@
             <div class="section">
 
                 <div class="slide">
-                    <div class="priceList  priceList--woman">
-                        <div class="arrow arrow--right">
-                            <a href="#cennik/1" class="prices__link"></a>
-                        </div>
-                        <h2 class="header header--center">Cennik dla Pań</h2>
-                        <div class="priceList__table">
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
-                                <div class="priceList__price">50zł</div>
+                    <div class="sectionCont sectionCont--woman">
+                        <div class="priceList  priceList--woman">
+                            <div class="arrow arrow--right">
+                                <a href="#cennik/1" class="prices__link"></a>
                             </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Koloryzacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Ombre</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Stylizacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Mycie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Suszenie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Regeneracja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Maseczka</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Koloryzacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Ombre</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Stylizacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Mycie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Suszenie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Regeneracja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Maseczka</div>
-                                <div class="priceList__price">50zł</div>
+                            <h2 class="header header--center">Cennik dla Pań</h2>
+                            <div class="priceList__table">
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Koloryzacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Ombre</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Stylizacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Mycie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Suszenie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Regeneracja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Maseczka</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Koloryzacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Ombre</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Stylizacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Mycie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Suszenie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Regeneracja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Maseczka</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -158,75 +166,77 @@
                 </div>
 
                 <div class="slide">
-                    <div class="priceList  priceList--man">
-                        <div class="arrow arrow--left">
-                            <a href="#cennik/1" class="prices__link"></a>
-                        </div>
-                        <h2 class="header header--center">Cennik dla panów</h2>
-                        <div class="priceList__table">
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
-                                <div class="priceList__price">50zł</div>
+                    <div class="sectionCont sectionCont--man">
+                        <div class="priceList  priceList--man">
+                            <div class="arrow arrow--left">
+                                <a href="#cennik/1" class="prices__link"></a>
                             </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Koloryzacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Ombre</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Stylizacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Mycie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Suszenie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Regeneracja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Maseczka</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Koloryzacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Ombre</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Stylizacja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Mycie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Suszenie</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Regeneracja</div>
-                                <div class="priceList__price">50zł</div>
-                            </div>
-                            <div class="priceList__row">
-                                <div class="priceList__serviceName">Maseczka</div>
-                                <div class="priceList__price">50zł</div>
+                            <h2 class="header header--center">Cennik dla panów</h2>
+                            <div class="priceList__table">
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Koloryzacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Ombre</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Stylizacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Mycie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Suszenie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Regeneracja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Maseczka</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Strzyżenie włosów z modelowaniem i przycinaniem końcówek</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Koloryzacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Ombre</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Stylizacja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Mycie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Suszenie</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Regeneracja</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
+                                <div class="priceList__row">
+                                    <div class="priceList__serviceName">Maseczka</div>
+                                    <div class="priceList__price">50zł</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,7 +244,7 @@
 
             </div>
             <div class="section">
-                <div class="sectionCont">
+                <div class="sectionCont sectionCont--staff">
                     <div class="staff">
                         <div class="staff__container">
                             <img
@@ -306,7 +316,7 @@
             </div>
             <div class="section">
 
-                <div class="sectionCont sectionCont--top">
+                <div class="sectionCont sectionCont--top sectionCont--contact">
                     <section class="map" id="map">
                     </section>
 
@@ -353,20 +363,21 @@
     <script type="text/javascript" src="js/fullpage.min.js"></script>
     <script type="text/javascript">
         new fullpage('#fullpage', {
-        	//options here
-            sectionsColor: ['#f2f2f2', '#4BBFC3', '#81667A', '#fff', '#000'],
             licenseKey:'3F060592-B2104558-A40FE35D-AEB863B4',
             anchors:['home', 'cennik', 'kadra', 'kontakt'],
             menu: '#nav__list',
             controlArrows: false,
             scrollOverflow: true,
             normalScrollElements: '#map',
+            touchSensitivity: 3,
             onLeave: function(origin, destination, direction){
                 		if(origin.index == 0){
-                			document.querySelector('.navCont').classList.add('navCont--white');
                             document.querySelector('.mouse').classList.add('mouse--hidden');
-                		} else if(destination.index == 0){
+                		}
+                        if(destination.index == 0 || destination.index == 3){
                             document.querySelector('.navCont').classList.remove('navCont--white');
+                        } else {
+                            document.querySelector('.navCont').classList.add('navCont--white');
                         }
                 	}
         });
