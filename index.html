@@ -70,9 +70,7 @@
                 <div class="slide">
                     <div class="sectionCont sectionCont--woman">
                         <div class="priceList  priceList--woman">
-                            <div class="arrow arrow--right">
-                                <a href="#cennik/1" class="prices__link"></a>
-                            </div>
+                            <div class="arrow arrow--right arrow--fixed" onclick="fullpage_api.moveSlideRight()"></div>        
                             <h2 class="header header--center">Cennik dla Pań</h2>
                             <div class="priceList__table">
                                 <div class="priceList__row">
@@ -146,21 +144,23 @@
 
                 <div class="slide active">
                     <div class="prices">
-                        <div class="prices__gender prices__gender--woman">
-                            <a href="#cennik" class="prices__link">
+                        <div
+                            class="prices__gender prices__gender--woman"
+                            onclick="fullpage_api.moveSlideLeft()"
+                        >
                                 <div class="arrow arrow--left"></div>
                                 <h2 class="prices__genderLink prices__genderLink--woman">
                                     Cennik dla Pań
                                 </h2>
-                            </a>
                         </div>
-                        <div class="prices__gender prices__gender--man">
-                            <a href="#cennik/2" class="prices__link">
+                        <div
+                            class="prices__gender prices__gender--man"
+                            onclick="fullpage_api.moveSlideRight()"
+                        >
                                 <div class="arrow arrow--right"></div>
                                 <h2 class="prices__genderLink prices__genderLink--man">
                                     Cennik dla Panów
                                 </h2>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -168,9 +168,7 @@
                 <div class="slide">
                     <div class="sectionCont sectionCont--man">
                         <div class="priceList  priceList--man">
-                            <div class="arrow arrow--left">
-                                <a href="#cennik/1" class="prices__link"></a>
-                            </div>
+                            <div class="arrow arrow--left" onclick="fullpage_api.moveSlideLeft()"></div>
                             <h2 class="header header--center">Cennik dla panów</h2>
                             <div class="priceList__table">
                                 <div class="priceList__row">

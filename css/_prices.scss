@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
 }
 
 .prices__gender--woman {
@@ -19,17 +23,6 @@
 
 .prices__gender--man {
     background-image: url('../img/manPrices.jpg');
-}
-
-.prices__link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 .prices__genderLink {
