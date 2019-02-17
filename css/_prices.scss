@@ -33,7 +33,7 @@
     font-weight: 300;
     writing-mode: tb-rl;
     position: absolute;
-    height: 50%;
+    height: 100%;
     text-align: center;
     top: 50%;
     transform: rotate(180deg) translateY(50%);
@@ -65,7 +65,7 @@
         top: auto;
         left: auto;
         bottom: auto;
-        height: 50vh;
+        height: 50%;
         width: 100%;
         display: flex;
         justify-content: center;
