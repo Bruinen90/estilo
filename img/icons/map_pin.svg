@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -7,52 +9,69 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   enable-background="new 0 0 100 100"
-   id="Layer_1"
+   width="12.317917mm"
+   height="16.121284mm"
+   viewBox="0 0 12.317917 16.121284"
    version="1.1"
-   viewBox="0 0 46.555905 60.930844"
-   xml:space="preserve"
-   sodipodi:docname="map_pin.svg"
-   width="46.555904"
-   height="60.930843"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-     id="metadata863"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs861" /><sodipodi:namedview
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="map_pin.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="97.360257"
+     inkscape:cy="9.5452467"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g856"
+     showgrid="false"
      inkscape:window-width="3840"
      inkscape:window-height="2066"
-     id="namedview859"
-     showgrid="false"
-     inkscape:zoom="18.43"
-     inkscape:cx="23.077953"
-     inkscape:cy="31.652893"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g856" /><g
-     id="g856"
-     transform="translate(-26.922047,-20.722047)"><path
-       d="m 50.2,21.1 c -12.7,0 -22.9,10.3 -22.9,22.9 0,12.6 22.9,37.1 22.9,37.1 0,0 22.9,-24.4 22.9,-37.1 0,-12.7 -10.2,-22.9 -22.9,-22.9 z"
-       id="path852"
-       inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="sscss" /><text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Microsoft Yi Baiti';-inkscape-font-specification:'Microsoft Yi Baiti';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="40.052811"
-       y="53.492283"
-       id="text867"><tspan
-         sodipodi:role="line"
-         id="tspan865"
-         x="40.052811"
-         y="53.492283">E</tspan></text>
-</g></svg>
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(638.89111,-1.6774526)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-646.01423,-3.8052557)"
+       id="g856"><path
+   sodipodi:nodetypes="sscss"
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   inkscape:connector-curvature="0"
+   id="path852"
+   d="m 50.2,21.1 c -12.7,0 -22.9,10.3 -22.9,22.9 0,12.6 22.9,37.1 22.9,37.1 0,0 22.9,-24.4 22.9,-37.1 0,-12.7 -10.2,-22.9 -22.9,-22.9 z" />
+<text
+   id="text867"
+   y="53.492283"
+   x="40.052811"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Microsoft Yi Baiti';-inkscape-font-specification:'Microsoft Yi Baiti';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+   xml:space="preserve"><tspan
+     y="92.833748"
+     x="40.052811"
+     id="tspan865"
+     sodipodi:role="line" /></text>
+
+</g>
+  </g>
+</svg>

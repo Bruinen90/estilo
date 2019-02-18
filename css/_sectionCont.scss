@@ -21,11 +21,14 @@
 }
 
 .sectionCont--staff {
-    background-image: linear-gradient(lighten(#087CA7, 80%), #087CA7);
+    background-color: #FFD275;
+    padding-bottom: 30px;
 }
 
 .sectionCont--contact {
-    background-image: linear-gradient(#fff 70%, #fff);
+    min-height: 100vh;
+    background-color: #faf9f3;
+    padding-bottom: 50px;
 }
 
 @media (min-width: $desktop) {

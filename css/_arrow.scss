@@ -16,9 +16,20 @@
 }
 
 .arrow--right {
-    right: 20px;
-    transform: rotate(-135deg) translateY(-50%);
+    right: 40px;
+    transform: rotate(-135deg) translateY(50%);
     animation: pulseRight 1s infinite alternate;
+}
+
+.arrow--dark {
+    border-color: #000;
+    opacity: .4;
+}
+
+.arrow--small {
+    border-width: 1px;
+    width: 16px;
+    height: 16px;
 }
 
 @keyframes pulseLeft {
@@ -29,6 +40,6 @@
 
 @keyframes pulseRight {
     to {
-        right: 5px;
+        right: 25px;
     }
 }

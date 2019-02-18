@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0;
+    height: 100%;
 }
 
 .contactData__container {
@@ -36,10 +38,6 @@
 }
 
 @media (min-width: $desktop) {
-    .contactData {
-        margin-top: 60px;
-    }
-
     .contactData__container {
         flex-direction: row;
     }

@@ -1,334 +1,103 @@
 const style = [
     {
-        "featureType": "all",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "gamma": 0.01
-            },
-            {
-                "lightness": 20
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "saturation": -31
-            },
-            {
-                "lightness": -33
-            },
-            {
-                "weight": 2
-            },
-            {
-                "gamma": 0.8
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.locality",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#050505"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.locality",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "color": "#fef3f3"
-            },
-            {
-                "weight": "3.01"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.neighborhood",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#0a0a0a"
-            },
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.neighborhood",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "color": "#fffbfb"
-            },
-            {
-                "weight": "3.01"
-            },
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
         "featureType": "landscape",
-        "elementType": "geometry",
         "stylers": [
             {
-                "lightness": 30
+                "hue": "#FFBB00"
             },
             {
-                "saturation": 30
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "saturation": 20
-            }
-        ]
-    },
-    {
-        "featureType": "poi.attraction",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.park",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "lightness": 20
+                "saturation": 43.400000000000006
             },
             {
-                "saturation": -20
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "lightness": 10
+                "lightness": 37.599999999999994
             },
             {
-                "saturation": -30
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "saturation": 25
-            },
-            {
-                "lightness": 25
+                "gamma": 1
             }
         ]
     },
     {
         "featureType": "road.highway",
-        "elementType": "geometry.fill",
         "stylers": [
             {
-                "visibility": "on"
+                "hue": "#FFC200"
             },
             {
-                "color": "#a1a1a1"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#292929"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "visibility": "on"
+                "saturation": -61.8
             },
             {
-                "color": "#202020"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "on"
+                "lightness": 45.599999999999994
             },
             {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            },
-            {
-                "hue": "#0006ff"
-            },
-            {
-                "saturation": "-100"
-            },
-            {
-                "lightness": "13"
-            },
-            {
-                "gamma": "0.00"
+                "gamma": 1
             }
         ]
     },
     {
         "featureType": "road.arterial",
-        "elementType": "geometry.fill",
         "stylers": [
             {
-                "visibility": "on"
+                "hue": "#FF0300"
             },
             {
-                "color": "#686868"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "visibility": "off"
+                "saturation": -100
             },
             {
-                "color": "#8d8d8d"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "visibility": "on"
+                "lightness": 51.19999999999999
             },
             {
-                "color": "#353535"
-            },
-            {
-                "lightness": "6"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "color": "#ffffff"
-            },
-            {
-                "weight": "3.45"
+                "gamma": 1
             }
         ]
     },
     {
         "featureType": "road.local",
-        "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#d0d0d0"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "lightness": "2"
+                "hue": "#FF0300"
             },
             {
-                "visibility": "on"
+                "saturation": -100
             },
             {
-                "color": "#999898"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "labels.text.fill",
-        "stylers": [
+                "lightness": 52
+            },
             {
-                "color": "#383838"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "color": "#faf8f8"
+                "gamma": 1
             }
         ]
     },
     {
         "featureType": "water",
-        "elementType": "all",
         "stylers": [
             {
-                "lightness": -20
+                "hue": "#0078FF"
+            },
+            {
+                "saturation": -13.200000000000003
+            },
+            {
+                "lightness": 2.4000000000000057
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "stylers": [
+            {
+                "hue": "#00FF6A"
+            },
+            {
+                "saturation": -1.0989010989011234
+            },
+            {
+                "lightness": 11.200000000000017
+            },
+            {
+                "gamma": 1
             }
         ]
     }

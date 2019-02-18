@@ -36,12 +36,9 @@ ul {
         left: 0;
         transition: .15s ease-in;
         transform: scaleX(0);
-        animation: animateBorder .25s ease-in forwards;
     }
-}
-
-@keyframes animateBorder {
-    to {
+    &:hover::after {
+        content: " ";
         transform: scaleX(1);
     }
 }

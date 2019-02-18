@@ -9,11 +9,34 @@
     height: 70px;
     display: flex;
     justify-content: center;
-    transition: all 700ms;
+    transition: background-color 700ms, color 200ms linear;
 }
 
 .navCont--white {
     background-color: rgba(255,255,255,.3);
+}
+
+.navCont--dark {
+    background-color: rgba(0,0,0, .3);
+    color: #fff;
+    .nav {
+        background-color: rgba(0,0,0, .7);
+    }
+    .hamburger-inner {
+        &,
+        &::before,
+        &::after {
+            background-color: #fff;
+        }
+    }
+
+    .hamburger {
+        .hamburger-inner,
+        .hamburger-inner::before,
+        .hamburger-inner::after {
+          background-color: #fff !important;
+        }
+     }
 }
 
 .navCont__cont {
@@ -48,5 +71,13 @@
 
     .navCont__toggler {
         display: none;
+    }
+
+    .navCont--dark {
+        background-color: rgba(0,0,0, .3);
+        color: #fff;
+        .nav {
+            background-color: transparent;
+        }
     }
 }
