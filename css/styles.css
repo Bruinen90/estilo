@@ -113,7 +113,7 @@ ul {
   margin: auto;
   z-index: 1;
   width: 100%;
-  height: 70px;
+  height: 50px;
   display: flex;
   justify-content: center;
   transition: background-color 700ms, color 200ms linear;
@@ -353,7 +353,7 @@ ul {
 .header {
   text-transform: uppercase;
   font-weight: 200;
-  font-size: 36px;
+  font-size: 32px;
   margin: 0;
   z-index: 1000;
 }
@@ -554,6 +554,10 @@ ul {
   justify-content: flex-end;
 }
 
+.priceList__goBack--white {
+  color: #fff;
+}
+
 .staff {
   display: grid;
   grid-template: 1fr/1fr;
@@ -596,7 +600,7 @@ ul {
   }
 }
 .sectionCont {
-  padding-top: 80px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -615,6 +619,7 @@ ul {
 
 .sectionCont--man {
   background-color: #5b9cb6;
+  color: #fff;
 }
 
 .sectionCont--staff {
@@ -732,10 +737,10 @@ section.map {
   overflow: visible;
 }
 .hamburger:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 .hamburger.is-active:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
@@ -744,7 +749,7 @@ section.map {
 }
 
 .hamburger-box {
-  width: 35px;
+  width: 30px;
   height: 20px;
   display: inline-block;
   position: relative;
@@ -756,7 +761,7 @@ section.map {
   margin-top: -1px;
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-  width: 35px;
+  width: 30px;
   height: 2px;
   background-color: #000;
   border-radius: 0px;
