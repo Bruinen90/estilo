@@ -43,28 +43,47 @@
     }
 
     .contactData__icon {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         margin-right: 40px;
     }
 
     .contactData__info--small {
-        font-size: 16px;
-        margin-top: 16px;
+        font-size: 14px;
+        margin-top: 14px;
     }
 
     .contactData__address {
-        font-size: 20px;
+        font-size: 22px;
         margin-top: 10px;
     }
 
     .contactData__callLink {
         color: inherit;
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .contactData__callLink {
         pointer-events: none;
         cursor: default;
+    }
+}
+
+@media (min-width: $big-desktop) {
+    .contactData__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contactData__info--small {
+        font-size: 16px;
+    }
+
+    .contactData__address {
+        font-size: 20px;
+    }
+
+    .contactData__callLink {
+        font-size: 28px;
     }
 }

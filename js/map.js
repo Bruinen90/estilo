@@ -110,6 +110,7 @@ function initMap() {
         zoom: 16,
         mapTypeControl: false,
         styles: style,
+        streetViewControl: false,
     };
 
     const map = new google.maps.Map(document.querySelector('.map'), mapParams);

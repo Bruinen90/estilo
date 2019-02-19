@@ -25,6 +25,13 @@ ul {
     padding: 0;
 }
 
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
 @mixin animatedLinkBorder($borderColor) {
     position: relative;
     &::after {

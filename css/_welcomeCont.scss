@@ -9,12 +9,6 @@
 
 .welcomeCont__header {
     display: none;
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 100;
-    font-size: 15vw;
-    text-align: center;
-    margin-right: 20vw;
 }
 
 .welcomeCont__subHeader {
@@ -45,12 +39,26 @@
 
     .welcomeCont__header {
         display: block;
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 100;
+        font-size: 15vw;
+        text-align: center;
+        margin-right: 20vw;
+        opacity: 0;
+        transform: translateX(calc(-50%));
+        animation: slideIn 2s .5s forwards ease-out;
+        will-change: transform;
     }
 
     .welcomeCont__subHeader {
         display: block;
         position: static;
         margin-right: 20vw;
+        opacity: 0;
+        transform: translateX(calc(-50%));
+        animation: slideIn 2s .5s forwards ease-out;
+        will-change: transform;
     }
 
     .welcomeCont__pic {
@@ -60,5 +68,9 @@
         width: auto;
         height: 91vh;
         z-index: 100;
+        opacity: 0;
+        transform: translateX(calc(100%));
+        animation: slideIn 2s .5s forwards ease-out;
+        will-change: transform;
     }
 }
