@@ -1,7 +1,7 @@
 .priceList {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -26,7 +26,7 @@
     width: 100%;
     display: flex;
     align-items: flex-end;
-    padding: 15px 30px;
+    padding: 10px 30px;
     &:nth-child(2n) {
         background-color: rgba(255,255,255,.2);
     }
@@ -61,4 +61,23 @@
 
 .priceList__goBack--white {
     color: #fff;
+}
+
+@media(min-width: $desktop) {
+    .priceList__table {
+        width: 65vw;
+        max-width: 100vw;
+        font-size: 12px;
+    }
+}
+
+@media(min-width: $big-desktop) {
+    .priceList__table {
+        width: 55vw;
+        font-size: 18px;
+    }
+
+    .priceList__row {
+        padding: 20px 30px;
+    }
 }
